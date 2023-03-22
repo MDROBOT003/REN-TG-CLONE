@@ -21,7 +21,7 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "0d3f74056f1e60388d3317548799ee17")
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQBtrbtdN4h_3YgsulfyrluM0xJzOPbM54wXQYLUVGqd-gohi_JEHRfMV-mGPY3dEqjQhJdZpUPxXWgLrQmhok9ZvwlPFpWn878YfhTdL0vO3U8cbkmwesGRamhmzm0f_8SLK43IAMRxaogt5yXP1o7IU-Jjz3wolK10uO2d_PFIzAgcvn1ASVHUinTbRstfC5bN2SBZSQMvHqhxslZnf0EeMfG_VGtPnEB2MriATz9YUPyp1DXyDWTH92tC--HFtQvxz3Xb6MFVPuUpsk9AgIJQ2fied95z_9Apuebi5gROcBY-7eKzsPIwJBdP36-DOK3yO2A_m0BJncw6AlJezSLyaYcCeAA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQCQIjipwlg4HK7BDjOx_WZyhLpqpcTYgkd--KUZDdhk2sCAPcbrStpEs-F54E1ZkFv8NtPlR_rBVljkRsaLMGTZzeC_2rPeNo4YCgXBLmgVBuX0NSdRy1a9YnGYmL3EHjPO8PsplF7NDUjAdBP7ob1N2mcCxVF0TobOwngTAG8W3VtmEu4WNbntY0-9Nhf93ysaHkYl7KZV1QhalgIsYkWC3qy0P-PtgjlMt6Z1Mm_rt3HtJ6ffuozdQm-SnhJiHUsthjMlTXcINOd--EABHMIBVVbxDv8Uq8G-L5x_SihVvQop9ZukxILM8L-DMna36LncC7NNjA8m3WsdmPIdhn-7aYcCeAA")
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "postgres://fileforward_xgrl_user:kkmQxLQoxea8Y6h2AnFaM80ege5Yv6Dd@dpg-cgcsbo64dad6fr6t3k6g-a/fileforward_xgrl")
