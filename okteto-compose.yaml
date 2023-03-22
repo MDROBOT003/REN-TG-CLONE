@@ -9,3 +9,6 @@ services:
       - AUTH_USERS=${AUTH_USERS}
       - TG_USER_SESSION=${TG_USER_SESSION}
       - DB_URI=${DB_URI}
+
+    ports:
+      - 80:80
