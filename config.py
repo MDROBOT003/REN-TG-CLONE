@@ -21,10 +21,10 @@ class Config(object):
     API_HASH = os.environ.get("API_HASH", "0d3f74056f1e60388d3317548799ee17")
 
     # Generate a user session string
-    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQCWNWIAmNyqTWg-IlWwXYQzd4AUW_wpOLY6vr9SDEipXSNnyeockeTuh_Db2B0GVsiowwLNX5JOVBaR3mKRgKU6wFmViqmJNbATx-OfcS6-mwZFUF-Up0bl_UA94tnKWpwZ0_GKc6Zn7w9DorAHX3J6J1unDQoBkdcLRbXDk9HxbnBA5kdq3VrGI3wRAsLjQG9C-G_FoY3j53SC1LlyadcKuY5dkfLc4AjqHVP7rKumW7LBMHF0fDqPf0ChbkJcFURXc3DfUdkedC8GoAcIDLPmLdISBRta4hxTr2Kvkqz6fMcDHcAhhheDk5a87gVMw-tL4tZi6Lz-C0dSvWmseBxx4U9PcwAAAABphwJ4AA")
+    TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "BQAj1MsAnN6YPR1VOFSHMXl5WCwPJOpjMzwpRW7054TTUsYvopePx1sIx8XoRVSnRjwcVDgrFKeul-k9vJtjFFImYW3dGCLQzxX4l9SBVjfEZXdz0mF5069tYEbALzbVV2CeNQh4TlBzThzakTxEMFtHM_8fYmLIYFjWv2bMyeg_GUbO7WOzvk9hXnZ6TC67lLqwAQ483qT_0tYFk4W38lXm_2GuHMjG1OYac3skdSZeo3b1XDHVMtseaI1uLSJ5rBWzJDIpKZvPplC-NhgzEp0AVE4yzJJsRvDAAWwZKg_Qkpz36ng_g75I-_ewnv9A2yciF3vBAeu3Sg9g2RbnzjWt4_-iqAAAAAFXJcKtAQ")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "postgres://fileforward_xgrl_user:kkmQxLQoxea8Y6h2AnFaM80ege5Yv6Dd@dpg-cgcsbo64dad6fr6t3k6g-a/fileforward_xgrl")
+    DB_URI = os.environ.get("DATABASE_URL", "postgres://fileforward_xgrl_user:kkmQxLQoxea8Y6h2AnFaM80ege5Yv6Dd@dpg-cgcsbo64dad6fr6t3k6g-a.oregon-postgres.render.com/fileforward_xgrl")
 
 
 def LOGGER(name: str) -> logging.Logger:
