@@ -25,7 +25,9 @@ class Config(object):
 
     # Database URI
     DB_URI = os.environ.get("DATABASE_URL", "")
-
+    
+    # Authorized users to use this bot
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
