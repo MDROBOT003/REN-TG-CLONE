@@ -43,9 +43,9 @@ async def clone_medias(bot: Bot, m: Message):
     #
     # Define the clone delay
     if bool(clone_delay):
-        delay = 10
+        delay = 90
     else:
-        delay = 0.25
+        delay = 40
     #
     # The vaulues will be swithed if the start message id is greater than the end message id
     if start_id > end_id:
